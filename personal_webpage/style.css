@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	
+    margin: 0;
+    background-color: #ffffff ;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 240, 240);
+}
+
+.regular {
+	text-align: center;
+    font-size: 25pt;
+    font-family: "Press Start 2P", cursive;
+    color: rgb(0, 0, 0);
+
+
+}
+
+.porto {
+    text-align: center;
+    color: rgb(243, 252, 249);
+    font-size: 30pt;
+    font-family: "Press Start 2P";
+}
+
+.title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size:30pt;
+    font-family: "Press Start 2P";
+}
+
+.section {
+    width: 100vw; /* 100% == 100vw vieport width */
+    max-width: 100%; /* hack for 100vw */
+    height: 930px; /* VH = viewport height */
+}
+
+
+.section-portfolio {
+    background-color: #FF368A;
+}
+
+.section-contacts {
+	background-size: cover;
+    height: 120px;
+}
+
+.header {
+    background-color: #ff65a2;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+}
+
+.header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .wrapper,
+.section .wrapper {
+
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: rgb(248, 241, 241);
+    font-size: 12pt;
+    font-weight: 800;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    background-color: transparent;
+    padding-left: 40pt;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20pt;
+}
+
+.menu li {
+    width: 100%;
+}
+
+.menu a {
+    font-size: 15pt;
+    font-weight: 500;
+    font-family: 'Roboto', cursive;
+    width: 100%;
+    text-align: right;
+    padding-right: 1pt;
+}
+
+.conteiner {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.grid--view {
+    display: flex;
+}
+
+h2 {
+    font-size: 55px;
+    font-family: 'Press Start 2P', cursive;
+	padding-left: 35pt;
+	padding-right: 15pt;
+}
+
+p {
+    font-family: 'Roboto', cursive;
+    font-size: 18px;
+	padding-left: 35pt;
+	padding-right: 25pt;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    color: rgb(0, 0, 0);
+}
+
+
+.container-text {
+    text-align: center;
+    padding: 0 50pt 100pt 50pt;
+}
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.gallery-item {
+    width: 23%;
+}
+
+.gallery-item img {
+    width: 100%;
+
+}
+
+.section-footer {
+
+	 background-color: #ff65a2;
+	background-size: cover;
+}
+
+.footer {
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 80px;
+    
+}
+.regular{
+    
+	margin: 0 15%;
+}
